@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #262323;
+}
+
+/* Navigation Area */
+.navigation-wrapper {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    padding: 5px 20px;
+    color: #cbcbcb;
+}
+
+.navigation-wrapper img {
+    height: 30px;
+    margin-top: 20px;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.navigation-wrapper > .center-column > .top {
+    color: #cea135;
+}
+
+
+/* links wrapper styles */
+
+
+.center-column > .links-wrapper {
+    display: flex;
+}
+
+.links-wrapper > .nav-link {
+    display: flex;
+    padding-right: 10px;
+}
+
+.links-wrapper > .outside-nav {
+    padding-left: 23px;
+}
+.links-wrapper > .outside-nav i{
+    font-size: 10px;
+}
+
+
+.navigation-wrapper > .right-side  {
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+/* center wrapper */
+.center-wrapper {
+    display: flex;
+}
+
+.center-wrapper > .midpage-wrapper > .text {
+    display: flex;
+}
+
+/* midpage wrapper */
+ .midpage-wrapper { 
+    justify-content: left;
+    padding-left: 35px;
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+
+/* button wrapper styles */
+.center-wrapper > .midpage-wrapper > .introduction {
+    font-family: monospace
+}
+
+.center-wrapper > .midpage-wrapper > .text > .free {
+    background-color: #5abd5a;
+    color: black;
+    font-size: 1.0em;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+
+.center-wrapper > .midpage-wrapper > .text > .learn {
+    margin-left: 15px;
+    background-color: #0e0e0e;
+    color: white;
+    font-size: 1.0em;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+/* projects style */
+
+ .projects > .social {
+    padding-left: 320px;
+    color: white;
+    padding-top: 45px;
+}
+
+.projects > .social > .bold {
+    color: #8db2bf;
+}
+
+ .projects img {
+    width: 500px;
+    padding-left: 300px;
+    height: 500px;
+}
+
+
+/* button styles */
+.navigation-wrapper > .right-side > .btn{
+    background-color: #322e2e;
+    color: white;
+    font-size: 1.0em;
+    padding: 15px 35px;
+    border: 1px solid #322e2e;
+    border-radius: 3px;
+}
+
+.fa-2x {
+    font-size: 2em;
+    color: gray;
+}
+
+.navigation-wrapper > .right-side > .btn > i {
+    color: lightgreen;
+}
+
+.navigation-wrapper > .glass {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.navigation-wrapper > .login > .btn {
+    background-color: #322e2e;
+    color: white;
+    font-size: 1.0em;
+    padding: 15px 20px;
+    border: 1px solid #322e2e;
+    border-radius: 3px;
+}
+
+.navigation-wrapper > .login {
+    padding-left: 23px;
+    padding-top: 10px;
+}
+
+.navigation-wrapper > .signup > .btn {
+    background-color: #322e2e;
+    color: white;
+    font-size: 1.0em;
+    padding: 15px 35px;
+    border: 1px solid #322e2e;
+    border-radius: 3px;
+}
+
+.navigation-wrapper > .signup {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* footer styles */
+.footer {
+    display: flex;
+    background-color: #705f5f;
+}
+
+.footer > .flex-container {
+    display: flex;
+}
+
+.footer > .flex-container > .list {
+    background-color: #343131;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 1px;
+    width: 334px;
+    color: white;
+}
